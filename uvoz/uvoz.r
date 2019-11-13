@@ -1,7 +1,6 @@
 # 2. faza: Uvoz podatkov
 
 sl <- locale("sl", decimal_mark=",", grouping_mark=".")
-# test
 # Funkcija, ki uvozi občine iz Wikipedije
 uvozi.obcine <- function() {
   link <- "http://sl.wikipedia.org/wiki/Seznam_ob%C4%8Din_v_Sloveniji"
